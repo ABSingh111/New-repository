@@ -1,0 +1,104 @@
+/* 🌟 Global Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
+  text-align: center;
+  padding: 200px;
+}
+
+/* 🗂️ Upload Form Styles */
+.upload-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: auto;
+  transition: 0.3s ease-in-out;
+}
+
+.upload-container:hover {
+  transform: scale(1.05);
+}
+
+/* 📂 File Input Styling */
+input[type="file"] {
+  background: rgb(93, 222, 93);
+  color: #333;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin: 10px 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* 🚀 Button Styling */
+button {
+  background: #ff7eb3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  margin-top: auto;
+}
+
+button:hover {
+  background: #ff4d80;
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 10px rgba(255, 78, 80, 0.5);
+}
+
+/* ✅ Message Styling */
+.message {
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.message.success {
+  background: rgba(46, 204, 113, 0.2);
+  color: #2ecc71;
+}
+
+.message.error {
+  background: rgba(231, 76, 60, 0.2);
+  color: #e74c3c;
+}
+
+.message.warning {
+  background: rgba(241, 196, 15, 0.2);
+  color: #f1c40f;
+}
+
+/* 📥 Download Button */
+.download-btn {
+  margin-top: 26px;
+  padding: 12px 24px;
+  font-size: 18px;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.download-btn:hover {
+  background: linear-gradient(90deg, #2575fc, #6a11cb);
+  transform: scale(1.1);
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 600px) {
+  .upload-container {
+      max-width: 90%;
+  }
+
+  button {
+      width: 90%;
+  }
+}
