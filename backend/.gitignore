@@ -1,0 +1,5 @@
+# Backend (Python/Flask)
+__pycache__/
+*.pyc
+.env
+venv/
